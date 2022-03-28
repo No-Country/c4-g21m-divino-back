@@ -1,7 +1,7 @@
 {
   "name": "c4-g21m-divino-back",
   "version": "1.0.0",
-  "description": "backend for divino project",
+  "description": "backend for divino-project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,9 @@
     "divino-project"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
 }
