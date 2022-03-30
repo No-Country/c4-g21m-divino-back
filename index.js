@@ -1,9 +1,11 @@
 const express = require("express");
 const cors = require("cors");
 const router = require("./Routes");
-
-const PORT = 4000;
 const app = express();
+const PORT = 4000;
+
+require("dotenv").config();
+require("./Config/database");
 
 app.use(cors());
 app.use(express.json());
